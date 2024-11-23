@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 menu-control = {git = "https://github.com/Rafael-Ramosc/menu-control-lib", branch = "master"}
+serde = {version = "1.0.215", features = ["derive"]}
+serde_yml = "0.0.12"
